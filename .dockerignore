@@ -1,0 +1,6 @@
+.venv
+.git
+.env
+outbox
+offers.jsonl
+__pycache__

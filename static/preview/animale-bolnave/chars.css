@@ -1,0 +1,77 @@
+/* character name highlights */
+.dtp-ch { border-radius: 0.2em; padding: 0 0.15em; }
+.dtp-ch-krinitzki { background: #ffd6d6; }
+.dtp-ch-paul { background: #d6e4ff; }
+.dtp-ch-simonca { background: #e8e8e8; }
+.dtp-ch-gaspar { background: #d9f2d0; }
+.dtp-ch-irina { background: #fff0b8; }
+.dtp-ch-mateias { background: #ecd6ff; }
+.dtp-ch-titus { background: #ffe0c2; }
+.dtp-ch-dan { background: #e8e8e8; }
+.dtp-ch-leca { background: #e8e8e8; }
+.dtp-ch-miloia { background: #c9f1f0; }
+.dtp-ch-alexandrescu { background: #ffd6ef; }
+.dtp-ch-cambrea { background: #e4e4b4; }
+.dtp-ch-dabici { background: #e8e8e8; }
+.dtp-ch-vostinaru { background: #f0d4c4; }
+.dtp-ch-mihuti { background: #e8e8e8; }
+.dtp-ch-donesie { background: #d4f0e0; }
+.dtp-ch-doctor_garda { background: #d8d8e8; }
+.dtp-ch-lia { background: #e8e8e8; }
+.dtp-ch-racoltea { background: #e8e8e8; }
+.dtp-ch-mitrofanovici { background: #e8e8e8; }
+.dtp-ch-dingo { background: #e8e8e8; }
+.dtp-ch-paulescu { background: #e8e8e8; }
+.dtp-ch-gore { background: #e8e8e8; }
+.dtp-ch-secosan { background: #e8e8e8; }
+.dtp-ch-petcu { background: #e8e8e8; }
+.dtp-ch-gheraga { background: #e8e8e8; }
+.dtp-ch-salomon_bela { background: #e8e8e8; }
+.dtp-ch-anni { background: #e8e8e8; }
+.dtp-ch-smultea { background: #e8e8e8; }
+.dtp-ch-capra { background: #e8e8e8; }
+.dtp-ch-bejan { background: #e8e8e8; }
+.dtp-ch-mioc { background: #e8e8e8; }
+.dtp-ch-lisl { background: #e8e8e8; }
+.dtp-ch-pistruiatul { background: #e8e8e8; }
+.dtp-ch-catalincea { background: #e8e8e8; }
+.dtp-ch-argint { background: #e8e8e8; }
+@media (prefers-color-scheme: dark) {
+  .dtp-ch-krinitzki { background: #6b2b2b; }
+  .dtp-ch-paul { background: #2b3f6b; }
+  .dtp-ch-simonca { background: #444444; }
+  .dtp-ch-gaspar { background: #2f5a2a; }
+  .dtp-ch-irina { background: #665a1f; }
+  .dtp-ch-mateias { background: #4a2b6b; }
+  .dtp-ch-titus { background: #6b4220; }
+  .dtp-ch-dan { background: #444444; }
+  .dtp-ch-leca { background: #444444; }
+  .dtp-ch-miloia { background: #1f5a58; }
+  .dtp-ch-alexandrescu { background: #6b2b52; }
+  .dtp-ch-cambrea { background: #555522; }
+  .dtp-ch-dabici { background: #444444; }
+  .dtp-ch-vostinaru { background: #5c3a2e; }
+  .dtp-ch-mihuti { background: #444444; }
+  .dtp-ch-donesie { background: #285a40; }
+  .dtp-ch-doctor_garda { background: #40405a; }
+  .dtp-ch-lia { background: #444444; }
+  .dtp-ch-racoltea { background: #444444; }
+  .dtp-ch-mitrofanovici { background: #444444; }
+  .dtp-ch-dingo { background: #444444; }
+  .dtp-ch-paulescu { background: #444444; }
+  .dtp-ch-gore { background: #444444; }
+  .dtp-ch-secosan { background: #444444; }
+  .dtp-ch-petcu { background: #444444; }
+  .dtp-ch-gheraga { background: #444444; }
+  .dtp-ch-salomon_bela { background: #444444; }
+  .dtp-ch-anni { background: #444444; }
+  .dtp-ch-smultea { background: #444444; }
+  .dtp-ch-capra { background: #444444; }
+  .dtp-ch-bejan { background: #444444; }
+  .dtp-ch-mioc { background: #444444; }
+  .dtp-ch-lisl { background: #444444; }
+  .dtp-ch-pistruiatul { background: #444444; }
+  .dtp-ch-catalincea { background: #444444; }
+  .dtp-ch-argint { background: #444444; }
+}
+.dtp-chip { display: inline-block; padding: 0 0.5em; border-radius: 0.25em; font-weight: bold; }

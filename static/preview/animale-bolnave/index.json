@@ -1,0 +1,33 @@
+{
+ "slug": "animale-bolnave",
+ "title": "Animale bolnave",
+ "author": "Nicolae Breban",
+ "lang": "ro",
+ "epub": "animale-bolnave.epub",
+ "chapters": [
+  {
+   "title": "How to read this edition",
+   "file": "00.html"
+  },
+  {
+   "title": "Excerpt 1 (chapter 3)",
+   "file": "01.html"
+  },
+  {
+   "title": "Excerpt 2 (chapter 4)",
+   "file": "02.html"
+  },
+  {
+   "title": "Excerpt 3 (chapter 5)",
+   "file": "03.html"
+  },
+  {
+   "title": "Excerpt 4 (chapter 1)",
+   "file": "04.html"
+  },
+  {
+   "title": "Characters",
+   "file": "05.html"
+  }
+ ]
+}
