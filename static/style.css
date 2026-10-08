@@ -207,3 +207,4 @@ input[type=text], input[type=email], input[type=number], input[type=search] {
 .choices label:has(input:checked) { border-color: var(--ink); }
 .choices input { margin-top: 0.35em; }
 .choices small { display: block; color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+.actions .btn.ghost[aria-current] { background: var(--ink, #222); color: var(--paper, #fff); }

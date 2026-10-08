@@ -1,0 +1,33 @@
+{
+ "slug": "war-and-peace-vol-1",
+ "title": "War and Peace, Volume I",
+ "author": "Leo Tolstoy",
+ "lang": "ru",
+ "epub": "war-and-peace-vol-1.epub",
+ "chapters": [
+  {
+   "title": "How to read this edition",
+   "file": "00.html"
+  },
+  {
+   "title": "Excerpt 1 (chapter 27)",
+   "file": "01.html"
+  },
+  {
+   "title": "Excerpt 2 (chapter 17)",
+   "file": "02.html"
+  },
+  {
+   "title": "Excerpt 3 (chapter 12)",
+   "file": "03.html"
+  },
+  {
+   "title": "Excerpt 4 (chapter 11)",
+   "file": "04.html"
+  },
+  {
+   "title": "Characters",
+   "file": "05.html"
+  }
+ ]
+}

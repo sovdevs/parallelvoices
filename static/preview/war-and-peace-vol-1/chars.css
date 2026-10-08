@@ -1,0 +1,91 @@
+/* character name highlights */
+.dtp-ch { border-radius: 0.2em; padding: 0 0.15em; }
+.dtp-ch-kutuzov { background: #fff0b8; }
+.dtp-ch-pierre_bezukhov { background: #d6e4ff; }
+.dtp-ch-vasily_kuragin { background: #d8d8e8; }
+.dtp-ch-andrei_bolkonsky { background: #ffd6d6; }
+.dtp-ch-boris_drubetskoy { background: #cfe6f6; }
+.dtp-ch-nikolai_rostov { background: #d9f2d0; }
+.dtp-ch-dolokhov { background: #c9f1f0; }
+.dtp-ch-anna_mikhailovna { background: #ffd6d6; }
+.dtp-ch-denisov { background: #e4e4b4; }
+.dtp-ch-nesvitsky { background: #e8e8e8; }
+.dtp-ch-elena_kuragina { background: #e8e8e8; }
+.dtp-ch-napoleon { background: #ffe0c2; }
+.dtp-ch-anatoly_kuragin { background: #d8d8e8; }
+.dtp-ch-count_bezukhov { background: #e8e8e8; }
+.dtp-ch-marya_bolkonskaya { background: #ecd6ff; }
+.dtp-ch-bagration { background: #d6e4ff; }
+.dtp-ch-natasha_rostova { background: #ffd6ef; }
+.dtp-ch-anna_pavlovna_scherer { background: #d9f2d0; }
+.dtp-ch-sonya_rostova { background: #e8e8e8; }
+.dtp-ch-hippolyte_kuragin { background: #e8e8e8; }
+.dtp-ch-old_prince_bolkonsky { background: #e8e8e8; }
+.dtp-ch-tsar_alexander { background: #e8e8e8; }
+.dtp-ch-countess_rostova { background: #e8e8e8; }
+.dtp-ch-berg { background: #e8e8e8; }
+.dtp-ch-bilibin { background: #e8e8e8; }
+.dtp-ch-shinshin { background: #e8e8e8; }
+.dtp-ch-petya_rostov { background: #e8e8e8; }
+.dtp-ch-archduke_ferdinand { background: #e8e8e8; }
+.dtp-ch-emperor_francis { background: #e8e8e8; }
+.dtp-ch-shmit { background: #e8e8e8; }
+.dtp-ch-captain_tushin { background: #fff0b8; }
+.dtp-ch-dolgouroukov { background: #e8e8e8; }
+.dtp-ch-lise { background: #e8e8e8; }
+.dtp-ch-julia_karagina { background: #e8e8e8; }
+.dtp-ch-kirsten { background: #e8e8e8; }
+.dtp-ch-mortier { background: #e8e8e8; }
+.dtp-ch-dokhturov { background: #e8e8e8; }
+.dtp-ch-murat { background: #e8e8e8; }
+.dtp-ch-kozlovsky { background: #e8e8e8; }
+.dtp-ch-suvorov { background: #e8e8e8; }
+.dtp-ch-ilya_rostov { background: #e8e8e8; }
+.dtp-ch-bourienne { background: #e8e8e8; }
+.dtp-ch-vera_rostova { background: #e8e8e8; }
+@media (prefers-color-scheme: dark) {
+  .dtp-ch-kutuzov { background: #665a1f; }
+  .dtp-ch-pierre_bezukhov { background: #2b3f6b; }
+  .dtp-ch-vasily_kuragin { background: #40405a; }
+  .dtp-ch-andrei_bolkonsky { background: #6b2b2b; }
+  .dtp-ch-boris_drubetskoy { background: #27485e; }
+  .dtp-ch-nikolai_rostov { background: #2f5a2a; }
+  .dtp-ch-dolokhov { background: #1f5a58; }
+  .dtp-ch-anna_mikhailovna { background: #6b2b2b; }
+  .dtp-ch-denisov { background: #555522; }
+  .dtp-ch-nesvitsky { background: #444444; }
+  .dtp-ch-elena_kuragina { background: #444444; }
+  .dtp-ch-napoleon { background: #6b4220; }
+  .dtp-ch-anatoly_kuragin { background: #40405a; }
+  .dtp-ch-count_bezukhov { background: #444444; }
+  .dtp-ch-marya_bolkonskaya { background: #4a2b6b; }
+  .dtp-ch-bagration { background: #2b3f6b; }
+  .dtp-ch-natasha_rostova { background: #6b2b52; }
+  .dtp-ch-anna_pavlovna_scherer { background: #2f5a2a; }
+  .dtp-ch-sonya_rostova { background: #444444; }
+  .dtp-ch-hippolyte_kuragin { background: #444444; }
+  .dtp-ch-old_prince_bolkonsky { background: #444444; }
+  .dtp-ch-tsar_alexander { background: #444444; }
+  .dtp-ch-countess_rostova { background: #444444; }
+  .dtp-ch-berg { background: #444444; }
+  .dtp-ch-bilibin { background: #444444; }
+  .dtp-ch-shinshin { background: #444444; }
+  .dtp-ch-petya_rostov { background: #444444; }
+  .dtp-ch-archduke_ferdinand { background: #444444; }
+  .dtp-ch-emperor_francis { background: #444444; }
+  .dtp-ch-shmit { background: #444444; }
+  .dtp-ch-captain_tushin { background: #665a1f; }
+  .dtp-ch-dolgouroukov { background: #444444; }
+  .dtp-ch-lise { background: #444444; }
+  .dtp-ch-julia_karagina { background: #444444; }
+  .dtp-ch-kirsten { background: #444444; }
+  .dtp-ch-mortier { background: #444444; }
+  .dtp-ch-dokhturov { background: #444444; }
+  .dtp-ch-murat { background: #444444; }
+  .dtp-ch-kozlovsky { background: #444444; }
+  .dtp-ch-suvorov { background: #444444; }
+  .dtp-ch-ilya_rostov { background: #444444; }
+  .dtp-ch-bourienne { background: #444444; }
+  .dtp-ch-vera_rostova { background: #444444; }
+}
+.dtp-chip { display: inline-block; padding: 0 0.5em; border-radius: 0.25em; font-weight: bold; }

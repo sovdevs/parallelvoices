@@ -1,7 +1,9 @@
 // Parallel Voices: a small hash-routed SPA. No build step, no dependencies.
 // Routes: #/ (home) · #/preview (reader) · #/request (offer form) · #/sent (confirmation)
 
-const PREVIEW = "/static/preview/animale-bolnave/";
+const BOOKS = ["war-and-peace-vol-1", "animale-bolnave"];  // preview slugs; the first is the home-page specimen
+const dir = (slug) => `/static/preview/${slug}/`;
+let PREVIEW = dir(BOOKS[0]);
 const $ = (sel, root = document) => root.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const view = $("#view");
@@ -23,7 +25,7 @@ async function ensureCharColors() {
   charsCss = true;
   try {
     const st = document.createElement("style");
-    st.textContent = await load(PREVIEW + "chars.css");
+    st.textContent = (await Promise.all(BOOKS.map((b) => load(dir(b) + "chars.css")))).join("\n");
     document.head.append(st);
   } catch { /* the page still works uncoloured */ }
 }
@@ -88,6 +90,7 @@ function wireNotes(root) {
 
 // ---- home --------------------------------------------------------------------------------------
 async function home() {
+  PREVIEW = dir(BOOKS[0]);
   view.innerHTML = `
   <div class="wrap">
     <section class="hero">
@@ -153,17 +156,22 @@ async function home() {
 
 // ---- preview reader ----------------------------------------------------------------------------
 async function preview() {
+  const want = location.hash.split("/")[2];
+  PREVIEW = dir(BOOKS.includes(want) ? want : BOOKS[0]);
   view.innerHTML = `<div class="wrap"><p class="status">Loading the preview…</p></div>`;
   await ensureCharColors();
   const idx = await load(PREVIEW + "index.json", true);
   const parts = idx.chapters.filter((c) => !/^How to read/.test(c.title));
+  const picker = (await Promise.all(BOOKS.map(async (b) => [b, await load(dir(b) + "index.json", true)])))
+    .map(([b, i]) => `<a class="btn ghost" href="#/preview/${b}" ${dir(b) === PREVIEW ? 'aria-current="true"' : ""}>${esc(i.title)} (${LANG[i.lang]})</a>`).join("");
   view.innerHTML = `
   <div class="wrap">
     <h1>Free preview</h1>
+    <div class="actions">${picker}</div>
     <p><em>${esc(idx.title)}</em> by ${esc(idx.author)}, ${parts.length - 1} short passages from the book as they appear in the edition. Tap a dotted word for its explanation.</p>
     <div class="reader-bar">
       <div class="seg" role="group" aria-label="Which language comes first">
-        <button type="button" data-order="orig" aria-pressed="true">Romanian first</button>
+        <button type="button" data-order="orig" aria-pressed="true">${LANG[idx.lang]} first</button>
         <button type="button" data-order="en" aria-pressed="false">English first</button>
       </div>
       <a class="btn ghost" href="${PREVIEW}${esc(idx.epub)}" download>Download the EPUB</a>
